@@ -1,11 +1,15 @@
+import ImageDropzone from "./components/ImageDropZone";
 import IntermediateDraggableComponent from "./components/IntermediateDraggableComponent";
-import SimpleDraggableComponent from "./components/SimpleDraggableComponet";
+import PDFDropzone from "./components/PDFDropZone";
+import SimpleDraggableComponent from "./components/SimpleDraggableComponent";
 
 const App = () => {
   return (
     <>
       <IntermediateDraggableComponent />
       <SimpleDraggableComponent></SimpleDraggableComponent>
+      <ImageDropzone />
+      <PDFDropzone />
     </>
   );
 };
